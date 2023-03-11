@@ -1,0 +1,105 @@
+main{
+    border: 3px solid blue;
+    margin:auto;
+    width:70%;
+    padding: 0.5em 1em 1em 0.5em;
+    
+}
+#upper{ 
+   
+    
+    width:100%;
+    height: auto;
+    
+    border-radius: 10px;
+    background-color: green;
+    margin: .5em .5em .5em .5em;
+    
+   
+}
+#reset{ 
+    width: 100px;
+    float: right;
+    margin: 5px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#yourcards {
+   
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position:relative;
+    margin: 15px;
+    
+
+}
+#yourcards img{
+  
+    height: 150px;
+    width: 125px;
+   
+    left: 0;
+    top: 0;
+    position: relative;
+    margin-left:20px;
+    margin-right: 0px;
+}
+#switch{
+    width:100%;
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    margin: auto 0px 0px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    
+}
+#switch h3{
+    color: white;
+}
+#bet_amount{
+    width: 50px;
+    background-color: aliceblue;
+}
+#betting{
+    margin-left:0.5em;
+}
+#score{
+    display: inline;
+    
+    margin-left: 0.5em;
+}
+#lower{
+    margin:0.5em;
+}
+
+.front img{
+    position:absolute;   
+}
+.back img{
+    position: absolute;
+}
+.cards{
+  display: inline-block;
+    height: 150px;
+    width: 125px;
+   
+    
+    margin-left:0px;
+    margin-right:20px;
+}
+.cards img{
+    cursor: pointer;
+}
+#gamestatus{
+   float: right;
+    
+    color: red;
+ display: inline;
+ 
+    
+}
