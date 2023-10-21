@@ -225,7 +225,7 @@ $(document).ready(() => {
       $("#yourcards").empty();
 
       for (let index = 0; index < hand.length; index++) {
-        if (index < 2) {
+        if (index < 5) {
           let cardimg = document.createElement("img");
           cardimg.src = "img/" + hand[index].rank + "-" + hand[index].suit + ".png";
     
