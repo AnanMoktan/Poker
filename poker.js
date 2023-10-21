@@ -260,7 +260,7 @@ $('#yourcards').append(newDiv);
       
       $(".cards").flip();
       
-        $("#gamestatus").text("please click card to see");
+        $("#gamestatus").text("please look below to know what hands you got");
       
       
       $("#score").text("Score:" + scores);
